@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'x'
+  azureServiceConnectionId: '8b6a98fa-22bd-4915-94ca-231ec77854bc'
   
   # Web app name
-  webAppName: 'x'
+  webAppName: 'bokehdemo'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'x'
+  environmentName: 'nextore'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
